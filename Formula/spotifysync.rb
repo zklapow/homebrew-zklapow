@@ -5,8 +5,8 @@ class Spotifysync < Formula
   version "0.0.4"
 
   # depends_on "cmake" => :build
-  depends_on "homebrew/binary/libspotify"
-  depends_on "homebrew/binary/portaudio"
+  depends_on "libspotify"
+  depends_on "portaudio"
 
   def install
     system "ls"

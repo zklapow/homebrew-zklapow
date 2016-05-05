@@ -1,8 +1,8 @@
 class Spotifysync < Formula
   desc "Synced spotify playing"
-  url "https://github.com/zklapow/SpotifySync/releases/download/0.0.4/dist.zip"
-  sha256 "5615ae196e08019741f5acfa5a6a3dd5b09456b3c544adc4c7922d437b7b39d7"
-  version "0.0.4"
+  url "https://github.com/zklapow/SpotifySync/releases/download/v0.0.5/dist.zip"
+  sha256 "c92f268e7e85e5fa0f3d5963671959aa02582d9592d42f8a3b40be394cb7d3c8"
+  version "0.0.5"
 
   # depends_on "cmake" => :build
   depends_on "libspotify"
